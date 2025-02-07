@@ -69,3 +69,16 @@ function calculateTax(amount, taxRate) {
 
 const taxAmount = calculateTax(100, 0.1);// calculate the tax amount for an order of $100 with a tax rate of 10%
 console.log("Tax Amount", taxAmount);// print the tax amount
+
+
+// Task 9: Discount Application
+
+function applyDiscount(Price, discount) {
+    return Price - (Price * discount);
+}// implement a function to apply a discount to a price
+
+const discountedPrice = applyDiscount(100, 0.2);// apply a 20% discount to a product that costs $100
+
+console.log("Discounted Price", discountedPrice);// print the discounted price
+
+
