@@ -19,3 +19,13 @@ cartItems.pop();// remove the last item from the cart
 cartItems.unshift("Banana");// add a new item to the beginning of the cart
 cartItems.shift();// remove the first item from the cart
 console.log(cartItems);// print the cart items
+
+// Task 4: Price Adjustments
+
+const prices = [100, 200, 300];// add product prices
+const discountedPrices = prices.map(price => price * 0.9);// apply a 10% discount to each price
+
+console.log("Discounted Prices", discountedPrices);// print the discounted prices
+
+
+
