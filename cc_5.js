@@ -82,3 +82,15 @@ const discountedPrice = applyDiscount(100, 0.2);// apply a 20% discount to a pro
 console.log("Discounted Price", discountedPrice);// print the discounted price
 
 
+// Task 10: Arrow Function
+
+const calculatePoints = (purchaseAmount) => {
+    return purchaseAmount / 10;
+}// implement an arrow function to calculate points based on the purchase amount
+
+const points = calculatePoints(200);// calculate points for a purchase of $200
+
+console.log("Points", points);// print the points
+
+// Done
+
