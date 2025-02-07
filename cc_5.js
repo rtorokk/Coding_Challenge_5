@@ -53,6 +53,7 @@ const totalRevenue = sales.reduce((total, sale) => total + sale, 0);// calculate
 
 console.log("Total Revenue", totalRevenue);// print the total revenue
 
+
 // Task 7: Customer Search
 
 const customers = ["Alice", "Bob", "Charlie", "David"];// add customer names
@@ -60,3 +61,11 @@ const findCustomer = (name) => customers.find(customer => customer === "Charlie"
 
 console.log("Found Customer", findCustomer("Charlie"));// print the found customer
 
+
+// Task 8: Tax Calculation
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}// implement a function to calculate tax amount
+
+const taxAmount = calculateTax(100, 0.1);// calculate the tax amount for an order of $100 with a tax rate of 10%
+console.log("Tax Amount", taxAmount);// print the tax amount
