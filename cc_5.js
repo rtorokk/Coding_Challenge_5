@@ -45,3 +45,11 @@ const availableInventory = inventory.filter(item => item.quantity > 0);// filter
 
 console.log("Available Inventory", availableInventory);// print the available inventory items
 
+
+// Task 6: Revenue Calculation
+
+const sales = [500, 300, 200, 400];// add sales data
+const totalRevenue = sales.reduce((total, sale) => total + sale, 0);// calculate the total revenue
+
+console.log("Total Revenue", totalRevenue);// print the total revenue
+
